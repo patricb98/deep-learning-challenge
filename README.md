@@ -35,6 +35,7 @@ Compiling, Training, and Evaluating the Model
 How many neurons, layers, and activation functions did you select for your neural network model, and why? / What steps did you take in your attempts to increase model performance?
 
 Initial attempt
+
     - layer 1 = 8 neurons, activation = relu
     - layer 2 = 5 neurons, activation = relu
     - output layer = sigmoid
@@ -42,6 +43,7 @@ Initial attempt
     - loss = 55.3%
     
 Optimisation 1 
+
     - layer 1 = 8 neurons, activation = relu
     - layer 2 = 5 neurons, activation = relu
     - layer 3 = 3 neurons, activation = relu
@@ -50,6 +52,7 @@ Optimisation 1
     - loss = 55.5%
     
 Optimisation 2 
+
     - layer 1 = 100 neurons, activation = relu
     - layer 2 = 30 neurons, activation = tanh
     - layer 3 = 10 neurons, activation = sigmoid
@@ -58,10 +61,11 @@ Optimisation 2
     - loss = 55.5%
     
 Optimisation 3 Auto
-<img width="204" alt="Screenshot 2024-04-30 at 10 51 47 AM" src="https://github.com/patricb98/deep-learning-challenge/assets/145084886/8243ed8f-29b9-45cd-9413-a0119cc21e1b">
+
+    <img width="204" alt="Screenshot 2024-04-30 at 10 51 47 AM" src="https://github.com/patricb98/deep-learning-challenge/assets/145084886/8243ed8f-29b9-45cd-9413-a0119cc21e1b">
     - accuracy = 72.8%
     - loss = 57.4%
-    
+
     - I took several steps to try and increase my models performance from the initial test 
     - I started the initial test with a basic model to with few neurons and layers using relu activation because I wanted a simple starting point to build on the non linear data. 
     - In the second model I added another layer to try and increase the accuracy but still kept the number of neurons in each layer relatively low. However the accuracy of the model did not really change. 
