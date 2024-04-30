@@ -11,9 +11,11 @@ Results: Using bulleted lists and images to support your answers, address the fo
 Data Preprocessing
 
 What variable(s) are the target(s) for your model?
+
     - "IS_SUCCESSFUL" is the target variable that we are tyring to predict 
 
 What variable(s) are the features for your model?
+
     - APPLICATION_TYPE—Alphabet Soup application type
     - AFFILIATION—Affiliated sector of industry
     - CLASSIFICATION—Government organisation classification
@@ -25,6 +27,7 @@ What variable(s) are the features for your model?
     - ASK_AMT—Funding amount requested
     
 What variable(s) should be removed from the input data because they are neither targets nor features?
+
     - EIN and NAME—Identification columns
 
 Compiling, Training, and Evaluating the Model
@@ -63,13 +66,15 @@ Optimisation 3 Auto
     - I started the initial test with a basic model to with few neurons and layers using relu activation because I wanted a simple starting point to build on the non linear data. 
     - In the second model I added another layer to try and increase the accuracy but still kept the number of neurons in each layer relatively low. However the accuracy of the model did not really change. 
     - In the third model I tried increasing the number of neurons in each layer and changing the activation to Tanh and Sigmoid to increase accuracy
-    - For the fourth model I used an auto optimisation function which suggested 2 layers with lower amounts of neurons in each layer than the third model and utilising relu activation. This model also only resulted in an accuracy of 72.8% which is the highest out of all four attempts but still under the target accuracy of 75%. 
+    - For the fourth model I used an auto optimisation function which suggested 2 layers with lower amounts of neurons in each layer than the third model and utilising relu activation. This model also only resulted in an accuracy of 72.8% which         is the highest out of all four attempts but still under the target accuracy of 75%. 
     
 Were you able to achieve the target model performance?
+
     - Out of all four attempts I was not able to achieve the target model performance of 75%. The closest model to target was the auto optimisation model at 72.8% accuracy
 
 
 Summary: Summarise the overall results of the deep learning model. Include a recommendation for how a different model could solve this classification problem, and then explain your recommendation.
+
     - overall the modifications to the model did not result in a significant increase in accuracy from the initial model to the last attempt 
     - the final auto optimised model did not acheive the target accuracy of 75%
     - taking into account the modifications to each model (increasing neurons, layers and changing activation) did not have any impact on the accuracy I would suggest the next steps of modification would be to reduce the number of columns or creating bins in the columns before disregarding the model. This is because some variables or outliers in the data can cause confusion in models and result in decreased accuracy.  
