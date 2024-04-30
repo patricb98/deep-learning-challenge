@@ -61,10 +61,12 @@ Optimisation 2
     - loss = 55.5%
     
 Optimisation 3 Auto
-
     <img width="204" alt="Screenshot 2024-04-30 at 10 51 47 AM" src="https://github.com/patricb98/deep-learning-challenge/assets/145084886/8243ed8f-29b9-45cd-9413-a0119cc21e1b">
+    
     - accuracy = 72.8%
     - loss = 57.4%
+    
+Optimisation Summary 
 
     - I took several steps to try and increase my models performance from the initial test 
     - I started the initial test with a basic model to with few neurons and layers using relu activation because I wanted a simple starting point to build on the non linear data. 
